@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StudyHub — Engineering Archive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!--
+    VISITOR ANALYTICS (Umami — privacy-friendly, no cookies, GDPR-compliant)
+    =========================================================================
+    Umami records: page views, visitor counts, referrer URLs, countries,
+    browsers, devices, and OS — nothing personally identifiable.
+
+    To enable this after you deploy:
+      1. Sign up free at https://cloud.umami.is  (or self-host)
+      2. Add your site — Umami gives you a Website ID + a script URL
+      3. Replace the data-website-id below with your real ID
+      4. Replace the src URL with your Umami instance URL
+      5. Remove the data-disabled="true" attribute
+
+    While data-disabled is present the script loads but sends no data,
+    so you can test locally without polluting your real analytics.
+  -->
+  <script
+    defer
+    src="https://cloud.umami.is/script.js"
+    data-website-id="REPLACE-WITH-YOUR-UMAMI-WEBSITE-ID"
+    data-disabled="true"
+  ></script>
+</head>
+<body data-theme="light">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
